@@ -74,3 +74,17 @@ export const API = axios.create({
 - Async
 
 **NB:** Untuk UI kalian boleh berkreasi sesuka kalian, bebas pakai CSS Framework lain selain Chakra
+
+## Panduan untuk menjalankan Backend secara lokal
+
+```bash
+go mod tidy
+go mod download
+go run main.go
+```
+
+== Yang dibutuhkan ==
+
+XAMPP
+
+langsung buat database baru dengan nama `backendmicrofeature`
